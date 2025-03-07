@@ -24,6 +24,7 @@ public class TransferController {
 
 	@Autowired
 	public TransferController(TransferService transferService) {
+		System.out.println("Testing Git");
 		this.transferService = transferService;
 		
 	}
